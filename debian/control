@@ -1,0 +1,12 @@
+Source: ros-turbulent-rmw-fastrtps-cpp
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake-ros, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-fastcdr, ros-turbulent-fastrtps, ros-turbulent-fastrtps-cmake-module, ros-turbulent-rcutils, ros-turbulent-rmw, ros-turbulent-rmw-fastrtps-shared-cpp, ros-turbulent-rosidl-cmake, ros-turbulent-rosidl-generator-c, ros-turbulent-rosidl-generator-cpp, ros-turbulent-rosidl-typesupport-fastrtps-c, ros-turbulent-rosidl-typesupport-fastrtps-cpp, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rmw-fastrtps-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ament-cmake, ros-turbulent-fastcdr, ros-turbulent-fastrtps, ros-turbulent-fastrtps-cmake-module, ros-turbulent-rcutils, ros-turbulent-rmw, ros-turbulent-rmw-fastrtps-shared-cpp, ros-turbulent-rosidl-cmake, ros-turbulent-rosidl-generator-c, ros-turbulent-rosidl-generator-cpp, ros-turbulent-rosidl-typesupport-fastrtps-c, ros-turbulent-rosidl-typesupport-fastrtps-cpp, ros-turbulent-ros-workspace
+Description: Implement the ROS middleware interface using eProsima FastRTPS static code generation in C++.
