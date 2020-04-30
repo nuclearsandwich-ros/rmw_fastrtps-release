@@ -1,0 +1,12 @@
+Source: ros-verystable-rmw-fastrtps-dynamic-cpp
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake-ros, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-fastcdr, ros-verystable-fastrtps, ros-verystable-fastrtps-cmake-module, ros-verystable-rcpputils, ros-verystable-rcutils, ros-verystable-rmw, ros-verystable-rmw-fastrtps-shared-cpp, ros-verystable-rosidl-generator-c, ros-verystable-rosidl-typesupport-fastrtps-c, ros-verystable-rosidl-typesupport-fastrtps-cpp, ros-verystable-rosidl-typesupport-introspection-c, ros-verystable-rosidl-typesupport-introspection-cpp, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rmw-fastrtps-dynamic-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ament-cmake, ros-verystable-fastcdr, ros-verystable-fastrtps, ros-verystable-fastrtps-cmake-module, ros-verystable-rcpputils, ros-verystable-rcutils, ros-verystable-rmw, ros-verystable-rmw-fastrtps-shared-cpp, ros-verystable-rosidl-generator-c, ros-verystable-rosidl-typesupport-fastrtps-c, ros-verystable-rosidl-typesupport-fastrtps-cpp, ros-verystable-rosidl-typesupport-introspection-c, ros-verystable-rosidl-typesupport-introspection-cpp, ros-verystable-ros-workspace
+Description: Implement the ROS middleware interface using eProsima FastRTPS static code generation in C++.
