@@ -1,1 +1,1 @@
-{"trim": "", "base": "deb2649", "trimbase": "", "parent": "debian/eloquent/rmw_fastrtps_cpp", "previous": "a8250c3"}
+{"base": "88d6eda", "parent": "debian/verystable/rmw_fastrtps_cpp", "previous": "4a72787", "trim": "", "trimbase": ""}
