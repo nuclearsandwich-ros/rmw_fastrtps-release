@@ -1,0 +1,12 @@
+Source: ros-testing-rmw-fastrtps-dynamic-cpp
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake-ros, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-fastcdr, ros-testing-fastrtps, ros-testing-fastrtps-cmake-module, ros-testing-rcpputils, ros-testing-rcutils, ros-testing-rmw, ros-testing-rmw-dds-common, ros-testing-rmw-fastrtps-shared-cpp, ros-testing-rosidl-runtime-c, ros-testing-rosidl-typesupport-fastrtps-c, ros-testing-rosidl-typesupport-fastrtps-cpp, ros-testing-rosidl-typesupport-introspection-c, ros-testing-rosidl-typesupport-introspection-cpp, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rmw-fastrtps-dynamic-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-ament-cmake, ros-testing-fastcdr, ros-testing-fastrtps, ros-testing-fastrtps-cmake-module, ros-testing-rcpputils, ros-testing-rcutils, ros-testing-rmw, ros-testing-rmw-dds-common, ros-testing-rmw-fastrtps-shared-cpp, ros-testing-rosidl-runtime-c, ros-testing-rosidl-typesupport-fastrtps-c, ros-testing-rosidl-typesupport-fastrtps-cpp, ros-testing-rosidl-typesupport-introspection-c, ros-testing-rosidl-typesupport-introspection-cpp, ros-testing-ros-workspace
+Description: Implement the ROS middleware interface using introspection type support.
