@@ -1,0 +1,12 @@
+Source: ros-testing-rmw-fastrtps-shared-cpp
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake-ros, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-fastcdr, ros-testing-fastrtps, ros-testing-fastrtps-cmake-module, ros-testing-rcpputils, ros-testing-rcutils, ros-testing-rmw, ros-testing-rmw-dds-common, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rmw-fastrtps-shared-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-ament-cmake, ros-testing-fastcdr, ros-testing-fastrtps, ros-testing-fastrtps-cmake-module, ros-testing-rcpputils, ros-testing-rcutils, ros-testing-rmw, ros-testing-rmw-dds-common, ros-testing-ros-workspace
+Description: Code shared on static and dynamic type support of rmw_fastrtps_cpp.
